@@ -6,24 +6,24 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 ## Day 1
 
 #### Planning
-- [ ] Complete the project planning document.
+- [X] Complete the project planning document.
 #### Set-Up
 - [x] Go to the repository at https://github.com/ScriptEdcurriculum/rockpaperscissors
-- [ ] Fork this repository to your github account and clone to a new workspace
-- [ ] Add, commit, and push your changes
-- [ ] Make your site live on gh-pages
+- [X] Fork this repository to your github account and clone to a new workspace
+- [X] Add, commit, and push your changes
+- [X] Make your site live on gh-pages
 
 ### JavaScript
-- [ ] Add a click handler that displays the value of the input within the div with the id `#userChoice`
+- [X] Add a click handler that displays the value of the input within the div with the id `#userChoice`
 
 
 ### HTML and CSS
-- [ ] Add any more HTML elements you will need to the page
-- [ ] Customize your HTML with CSS
+- [X] Add any more HTML elements you will need to the page
+- [X] Customize your HTML with CSS
 
 #### Wrap
-- [ ] Push your changes!
-- [ ] Save and submit your website using the link on the Daily Session Document.
+- [X] Push your changes!
+- [X] Save and submit your website using the link on the Daily Session Document.
 
 ## Day 2
 

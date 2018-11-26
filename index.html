@@ -1,50 +1,35 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <title>RPS Game</title>
-  <!-- Link CSS here -->
-  <link type='text/css' rel='stylesheet' href='css/style.css' />
-</head>
-
-<body>
-   
-    
-  <!-- TASK 1: In the div below. 
-        1. In a header tag, add a title.
-        2. In a paragraph tag, add instructions on how to play the game.
-        3. Add a RPS image.
-        4. Add input box and button .
-        5. Add divs to record User Choice and Computer Choice.
-        6. Add a div to record the Winner.
-     -->
-  <div class="row">
-      <h1>Rock Paper Scissors</h1>
-      <img src="http://www.coltnews.com/wp-content/uploads/2016/04/RPS.png">
-
-      <h3>Please Submit Your Choice Below</h3>
-      <div>
-        <input id="input">
-        <button id="shoot">Shoot!</button>
-      </div>
-
-      <div id="choices" class="row">
+  <head>
+    <title>RPS Game</title>
+    <link type='text/css' rel='stylesheet' href='css/style.css' />
+  </head>
+  
+  <body onload="speak('Welcome to Rock Paper Scissors. Please say either Rock paper or scissors to begin. Alternatively, type either rock paper or scissors in the text field.')">
+    <div class="row">
+        <h1>Rock Paper Scissors</h1>
+        <img src="http://www.coltnews.com/wp-content/uploads/2016/04/RPS.png">
+  
+        <h3>Please Submit Your Choice Below</h3>
         <div>
-          <h4>User Choice</h4>
-          <p id="userChoice"></p>
+          <input id="input">
+          <button id="shoot">Shoot!</button>
         </div>
-        <div>
-          <h4>Computer Choice</h4>
-          <p id="computerChoice"></p>
+  
+        <div id="choices" class="row">
+          <div>
+            <h4>User Choice</h4>
+            <p id="userChoice"></p>
+          </div>
+          <div>
+            <h4>Computer Choice</h4>
+            <p id="computerChoice"></p>
+          </div>
         </div>
-      </div>
-      <div id="result"></div>
-  </div>
-
-  <!-- Link JQuery here -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <!-- Link script.js here -->
-  <script src='js/script.js'></script>
-</body>
-
+        <div id="result"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+    <script src='js/script.js'></script>
+  </body>
 </html>
